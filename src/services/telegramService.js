@@ -20,7 +20,7 @@ class TelegramService {
             const userId = ctx.from.id;
             const isAdmin = config.getAdminIds().includes(userId.toString());
             
-            if (!isAdmin) {
+            if (isAdmin) {
                 ctx.reply(
                     "👋 Salom, Admin! Bu bot orqali mahsulot rasmlarini yuklashingiz mumkin.",
                     this.getAdminKeyboard()
