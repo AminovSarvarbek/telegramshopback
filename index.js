@@ -19,9 +19,7 @@ app.use((req, res, next) => {
 });
 
 // Configure CORS to allow all origins during development
-app.use(cors({
-    credentials: true,
-}));
+app.use(cors());
 
 app.use(express.json());
 
