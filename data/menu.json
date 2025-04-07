@@ -1,0 +1,16 @@
+[
+  {
+    "id": 8,
+    "name": "Mahsulot 1",
+    "description": "10",
+    "price": 10,
+    "image": "https://api.telegram.org/file/bot7819751797:AAHHWLudbVsAw6sIC1n-CUDTqCnZ5hobOkI/photos/file_11.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Osh",
+    "description": "Test uchun",
+    "price": 15,
+    "image": "https://api.telegram.org/file/bot7819751797:AAHHWLudbVsAw6sIC1n-CUDTqCnZ5hobOkI/photos/file_13.jpg"
+  }
+]
